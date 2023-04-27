@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rana blog</title>
+<!--     <link rel="stylesheet" href="style.css"> -->
+   <!--  <link rel="stylesheet" media="screen and (max-width: 375px)" href="phone.css"> -->
+   <style>
+
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        margin-top: -14px;
+        position: relative;
+}
+header::before {
+    content: " ";
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 107px;
+    opacity: 0.2;
+    }
+ */
+    #navbar {
+        position: relative;
+        display: flex;
+        margin: 0px 114px;
+        padding: 0px 111px;
+        justify-content: center;
+    }
+
+    /* logo sizing */
+    #logo {
+        position: relative;
+        margin: 0px 0px;
+        display: inline-block;
+    }
+    
+    #logo img {
+        height: 64px;
+        width: 135px;
+        margin: 6px -6px;
+        padding: 0px 0px;;
+    }
+    
+    #navbar ul {
+        display: flex;
+        margin: 0px 225px;
+    }
+    
+    #navbar ul li {
+        list-style: none;
+    }
+    
+    #navbar ul li a {
+        color: rgb(17, 14, 11);
+        display: block;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin: 23px 52px;
+    }
+    
+    #navbar ul li a:hover {
+        color: rgb(255, 252, 248);
+        display: block;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin: 23px 52px;
+    }
+    #navbar ul li a.active {
+        color: cornflowerblue;
+    }
+    #searchbar {
+        display: flex;
+        position: relative;
+        margin: 26px 16px;
+    }
+    #searchbar input[type=text] {
+       border-radius: 20px; 
+       padding: 4px;
+       border: none;
+    }
+/*     #searchbar button{
+position: relative;
+  padding: 6px 10px;
+  margin: 8px 4px;
+  background: rgb(243, 238, 238);
+  font-size: 17px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer
+    } */
+    body {
+     /*  position: relative; */
+        margin: 0px;
+        padding: 0px;
+        background-image: url("images/gabriel-beaudry-70rHtD11NNk-unsplash.jpg");
+        background-repeat: no-repeat;
+    }
+
+    body::before{
+        position: absolute;
+        content: " ";
+        z-index: -1;
+       
+       top:0px;
+        left: 0px;
+        width:100%;
+        height: 100%;
+        background-size: cover;
+        opacity: 0.5;
+    }
+
+    section {
+        margin: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+        #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+
+   </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="www.ranablogs.com">
+        </div>
+        <hr>
+        <nav id="navbar">
+            <ul class="container">
+                <li class="item"><a href="/">home</a></li>
+                <li class="item"><a href="/services">services</a></li>
+                <li class="item"><a href="/about">about us</a></li>
+                <li class="item"><a href="/contact">contact us</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div id="searchbar"><input type="text" placeholder="Search..">
+ <!--        <button type="submit"><i class="fa fa-search"></i></button> -->
+    </div>
+    </header>
+    <section id="home">
+        <h3 class="heading">Welcome to Rana blog</h3>
+
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, adipisci tempora nemo nostrum tempore
+            officiis beatae porro quo suscipit voluptas, corrupti ullam odit nam? Consequatur vel quidem quam tempora
+            facere dolore explicabo amet consequuntur.</P> <br>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus beatae quasi autem eius soluta error
+            velit sit, repellendus quidem dolorem qui ducimus, recusandae sequi optio obcaecati? Eaque sunt a maiores,
+            non autem atque blanditiis, fuga laudantium molestiae vitae reiciendis?</p>
+        <h3 class="heading">
+            blog 1
+        </h3>
+        <P>
+            this is my first blog Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt laboriosam
+            provident quo, fugiat, reprehenderit neque porro aliquid doloribus impedit obcaecati ut iusto autem! Tempore
+            blanditiis velit maxime vero consectetur quam optio impedit expedita!
+        </P> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+            vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+            beatae in molestias hic vero ullam sint!</p> <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+            vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+            beatae in molestias hic vero ullam sint!</p> <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+            vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+            beatae in molestias hic vero ullam sint!</p> <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+            vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+            beatae in molestias hic vero ullam sint!</p> <br>
+            <h3 class="heading">
+                blog 2
+            </h3>
+            <P>
+                this is my first blog Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt laboriosam
+                provident quo, fugiat, reprehenderit neque porro aliquid doloribus impedit obcaecati ut iusto autem! Tempore
+                blanditiis velit maxime vero consectetur quam optio impedit expedita!
+            </P> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+                vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+                beatae in molestias hic vero ullam sint!</p> <br>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+                    vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+                    beatae in molestias hic vero ullam sint!</p> <br>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+                        vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+                        beatae in molestias hic vero ullam sint!</p> <br>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae placeat, iusto perspiciatis
+                            vero minima natus, laudantium aliquam incidunt officia voluptates. Quam et doloribus repudiandae, ea minima
+                            beatae in molestias hic vero ullam sint!</p> <br>
+                            <button class="button">show more</button>
+                        </section>
+                    </body>
+                    
+                    
+                    </html>
